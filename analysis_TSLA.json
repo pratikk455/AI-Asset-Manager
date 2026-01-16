@@ -1,0 +1,372 @@
+{
+  "ticker": "TSLA",
+  "thesis": {
+    "ticker": "TSLA",
+    "company_name": "Tesla, Inc.",
+    "recommendation": "sell",
+    "conviction": 0.65,
+    "target_weight": 0.0,
+    "thesis_summary": "Tesla is a company with a strong brand and technological advantages in the electric vehicle market. However, its current valuation is extremely stretched, profitability is declining, and sentiment is turning negative. While Tesla possesses a narrow economic moat, increasing competition and execution risks associated with its ambitious growth plans make it difficult to justify the current price. Therefore, I recommend selling Tesla.",
+    "bull_case": {
+      "summary": "Tesla's brand and technological lead could drive future growth. Successful deployment of Full Self-Driving (FSD) and robotaxi services, coupled with expansion of the Supercharger network, could unlock significant value.",
+      "key_points": [
+        "Tesla's brand remains powerful, commanding high customer loyalty and pricing power.",
+        "Advancements in battery technology and autonomous driving could create substantial new revenue streams.",
+        "Expansion of the Supercharger network and its opening to non-Tesla EVs can generate significant revenue."
+      ]
+    },
+    "bear_case": {
+      "summary": "Tesla's valuation is unsustainable given slowing growth and declining profitability. Increased competition, execution risks with FSD, and potential regulatory hurdles pose significant threats.",
+      "key_points": [
+        "Tesla's revenue growth is decelerating, and profit margins are shrinking, raising concerns about its ability to justify its premium valuation.",
+        "Competition in the EV market is intensifying, particularly from Chinese manufacturers like BYD, putting pressure on market share and pricing.",
+        "Delays or failures in achieving Full Self-Driving (FSD) and robotaxi goals could significantly impact future growth prospects."
+      ]
+    },
+    "key_risks": [
+      "Intensified competition in the EV market leading to price wars.",
+      "Execution risks associated with achieving full self-driving capabilities.",
+      "Sustained margin compression due to pricing pressure and rising input costs."
+    ],
+    "catalysts": [
+      "Breakthroughs in battery technology leading to improved range and lower costs.",
+      "Successful deployment of Full Self-Driving (FSD) and regulatory approval for robotaxi services."
+    ],
+    "score_breakdown": {
+      "fundamentals": 5,
+      "moat": 8,
+      "sentiment": 4,
+      "valuation": 2,
+      "overall": 5
+    },
+    "investment_horizon": "medium_term",
+    "price_target": "$290",
+    "stop_loss_suggestion": "$545 (20% above current)",
+    "full_thesis": "Tesla is a company with undeniable strengths, including a powerful brand, technological innovation, and a growing Supercharger network. These factors contribute to a narrow economic moat that provides some competitive advantage. However, the current valuation is divorced from reality, reflecting extreme optimism that is unlikely to be sustained. Fundamentals are showing signs of weakness, with declining revenue growth and shrinking profit margins. Sentiment is also turning negative, driven by downbeat delivery estimates and concerns about valuation. While Tesla's long-term potential remains significant, the current risk/reward profile is unfavorable. The combination of a stretched valuation, slowing growth, increasing competition, and execution risks associated with Full Self-Driving (FSD) make it difficult to justify holding the stock at these levels. A more reasonable valuation, based on peer comparisons and a discounted cash flow analysis, suggests a fair value significantly below the current market price. Therefore, I recommend selling Tesla and reallocating capital to more attractive opportunities."
+  },
+  "research": {
+    "fundamentals": {
+      "ticker": "TSLA",
+      "company_name": "Tesla, Inc.",
+      "revenue": {
+        "latest_ttm": "$95.63B",
+        "yoy_growth": "-1.56%",
+        "cagr_3yr": "Declining growth",
+        "trend": "decelerating"
+      },
+      "profitability": {
+        "gross_margin": "17.0%",
+        "operating_margin": "4.98%",
+        "net_margin": "4.89%",
+        "trend": "declining"
+      },
+      "balance_sheet": {
+        "total_debt": "$7.5B",
+        "cash_and_equivalents": "$41.6B",
+        "net_debt": "-$34.1B",
+        "debt_to_equity": "0.09",
+        "health": "strong"
+      },
+      "cash_flow": {
+        "operating_cash_flow_ttm": "Generally positive",
+        "free_cash_flow_ttm": "~$4B",
+        "fcf_margin": "Not available",
+        "quality": "moderate"
+      },
+      "key_ratios": {
+        "pe_ratio": "313.59",
+        "ps_ratio": "16.95",
+        "roe": "6.61%",
+        "roa": "Not available"
+      },
+      "score": 5,
+      "strengths": [
+        "Strong cash position",
+        "Low debt-to-equity ratio"
+      ],
+      "concerns": [
+        "Declining revenue growth",
+        "Decreasing profit margins",
+        "High P/E and P/S ratios"
+      ],
+      "summary": "Tesla's revenue has recently declined, and its profit margins are decreasing. However, the company maintains a robust cash position and a low debt-to-equity ratio. The high P/E and P/S ratios suggest the stock may be overvalued.",
+      "_sources": []
+    },
+    "moat": {
+      "ticker": "TSLA",
+      "company_name": "Tesla, Inc.",
+      "moat_sources": [
+        {
+          "type": "intangibles",
+          "description": "Tesla possesses a strong brand identity as a manufacturer of high-quality, high-performance vehicles, which gives the company significant pricing power and customer loyalty. Tesla's brand value is worth $67.7 billion, which is more than double its closest competitor, Toyota.",
+          "strength": "strong"
+        },
+        {
+          "type": "cost_advantages",
+          "description": "Tesla's Gigafactories enable economies of scale, with cost per vehicle hitting a record low of under $35,000 in Q4 2024. Proprietary techniques like gigacasting reduce production costs by 30% compared to traditional methods. Tesla's cost leadership and vertical integration give it an edge over peers in a deflationary environment.",
+          "strength": "moderate"
+        },
+        {
+          "type": "switching_costs",
+          "description": "Tesla's software integration creates switching costs. Features like driver profiles that auto-adjust seating, mirrors, and driving modes increase customer retention. Over 90% of Tesla owners repurchase the brand, citing ecosystem integration.",
+          "strength": "weak"
+        },
+        {
+          "type": "network_effects",
+          "description": "Tesla's Supercharger network creates a network effect, giving people reassurance and confidence to make the switch to electric vehicles. By opening up the network to non-Tesla EVs, the company could become the gas station company of the future. Tesla's North American Charging Standard (NACS) has become the de facto industry standard, generating dual revenue streams: charging fees and licensing income.",
+          "strength": "moderate"
+        },
+        {
+          "type": "intangibles",
+          "description": "Tesla's proprietary technology and continuous innovation in battery and autonomous driving technology provide durable competitive advantages. Tesla's investment in its vision-based autonomous driving system has accumulated over 3 billion real-world miles of training data, creating a significant barrier to entry for competitors.",
+          "strength": "moderate"
+        }
+      ],
+      "moat_width": "narrow",
+      "moat_trend": "stable",
+      "durability_years": 15,
+      "main_threats": [
+        "Intensified competition in the EV and AV markets",
+        "Price wars and shrinking profit margins",
+        "Geopolitical risks",
+        "Chinese competition, particularly from BYD"
+      ],
+      "competitive_position": "leader",
+      "key_competitors": [
+        "BYD",
+        "General Motors",
+        "Ford",
+        "Rivian",
+        "Lucid"
+      ],
+      "score": 8,
+      "summary": "Tesla maintains a narrow economic moat due to its strong brand, proprietary technology, Supercharger network, and cost advantages. However, increasing competition, pricing pressure, and execution risks pose threats to its market position, requiring Tesla to continuously innovate and defend its market share.",
+      "_sources": [
+        {
+          "title": "financhill.com",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEKOGOj9VeekcpB5yaiSOwqSP4E6e2VgL_Jyb5dNuY-LWpsAC5_kCuf-oQ9W2ckgziBXpXk7jiRY2S3hYl8-EpyudNazTPXlgsH_8Avv19xXDhXcSH43UCFcNh0Oh9RaE6-UK4QI-WwWsV4G5Vsb5HFXvI7Y4ZTZvV0PeuA9kjjr1w="
+        },
+        {
+          "title": "gurufocus.com",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGo1_hHTu9raebKQzMqrZvv1-Dv6jaXDpp7TN_Ef5nqJbmhLTQZtbcwkxS_1OOvUwBJzeKhDsZSxTa4g6w4a7xjZAiQTehL1bmauEpjK4MEhUF8YPB804vZhJGqwYk0d3HAPkYFdGPUa60="
+        },
+        {
+          "title": "ecomoat.ai",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHC27dPCMTHVfqhBa0AEu22bptDfozsa07d1r12DQKSsklsM0RpVPbxZITQVAQpb1FRJXiI7CAHofgtSZKKyk1JYl0xue86YZErq1MxcU-GVrFErh8O4wpnyDBS0NRUhbwG3EAGuLmxXgWCRF2MVww="
+        },
+        {
+          "title": "moomoo.com",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEehhiW_rf0JoigdBx8JCxIeKTVDA83yoPJEVNZOHGPg1t0HP9pJV8pTRGKFwiHenptHAWd_Xen9h81C8ucQZjlQJWWlqZVktG5WHsHVeSyI237lvmNCVCYPrEQdrQbCQV4UAmFbX1wlqtA3To7YVeJh35y400-uze-5VzSJP33yGKqWQ6hrhxMf5-U-RsXeuyrDyzb6wQzieSIMv2-6CDcHaSEwzIv8Q=="
+        },
+        {
+          "title": "tesmanian.com",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHi0ZNghFeulLYZ8k8dDuQ3nM6PZ6MZTR2teAnViytl44TWyNXvTyfBFEiXf8LDcCR4kYCLlXyhErUct5xu2RxSDKpSIQI404DyL-kv-egdInYQTB0WOYTCkLv77mqfh89q4zbJYbnMMf1NfEZ2pG4Ncs9nwBKG7shvbAwESAzwy2h0pVMFxg677lUbRbaqgfykCrroA335iA5u4QafTyG4an8eEeCss2hPFedv15rdPrjT4xdFdgiLQb7OvQgn4b9mZR8pufEVKdk4AKYuNrnqEdtvQhY9CR4nryB5OuQWzHC_VfgNaT1ZITkIZqjj3RRM"
+        },
+        {
+          "title": "thedriven.io",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHKQEnmYxlsHSInh9rYfveop3aoFLX45lIhDGght-JmCj_EGAksGacOmplE5VWSMF6osxHfH4UTCAMbwn2Rp27W2ubIe9NLOhN7zxPkHWIlSFckCCJSBQg0QeqpXxwW8Hyct-7vBUVdZuc5yLkWDsXwUIosIzoSXcxo0UK26zzHrDm4LCpiemzQLSalebY7lNRwGji5"
+        },
+        {
+          "title": "financialmodelingprep.com",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHnPgMUG1DIT8cxf_COxUE2VwhKU8rJxyXZ9wp8Hd8CVPts0mJnoV7UaUbNUJiH7mZlBBOwCwPulWu6ubrH2BDp58gD1gIdpG33yJaVWPoEtL8T-gBssg2VmDL_jeJK-M7Fu5k7TgH7npinr1LOxVBvPNVkH2PSsoVwRF4dN-KEoI0IDwv5yraLTvQ0NKy8zUVxC0WqY8p1J7jfjUAy6Jb1td3BL-6We2kQ9U-bf_xj"
+        },
+        {
+          "title": "thestreet.com",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHxIwbLlAPEF5xNOcSxdE5O6I_MDQXWhwOrnfKjW441bkJeIS9_fu93RRllF7fmsb9CbjwB6LGw5bMLM8N4IYZnR6mWDH4lyqsrfnyhiz9NYHif9uQX_2g_XceIMvyCN0r4h6GxHnNdDNcCIzzZ10_u5BdGE44m-9KVnr0E-sudaENQ4UnYwWTpCuWe5T7CM9g="
+        },
+        {
+          "title": "investopedia.com",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFjtmim5HRjuGupL9zsJARDUEmhwVszVW_Gt9o1uSD_0zpuUo_6_adW4IIeN6e2ssw-ngXPjBbcSRwzyVd3vmTb2H2oqB1hOiDIH7RUYbVEVb93TAW-5FLJ9d7OpZUOft8eELuo4VoV65adSp3rsaPwTPvo9ViDjd8vINL22NI38aJvR--A-5ExC4iXD3w964H_pjY="
+        }
+      ]
+    },
+    "sentiment": {
+      "ticker": "TSLA",
+      "company_name": "Tesla, Inc.",
+      "overall_sentiment": "bearish",
+      "news": {
+        "tone": "negative",
+        "key_headlines": [
+          "Tesla Compiles Downbeat Delivery Estimates",
+          "Michael Burry says Tesla 'ridiculously overvalued'"
+        ],
+        "major_events": [
+          "Downbeat Q4 Delivery Forecast"
+        ]
+      },
+      "analyst_ratings": {
+        "consensus": "Hold",
+        "buy_count": 38,
+        "hold_count": 26,
+        "sell_count": 18,
+        "avg_price_target": "$385.34",
+        "price_target_low": "$19.05",
+        "price_target_high": "$600.00",
+        "recent_changes": []
+      },
+      "social": {
+        "buzz_level": "high",
+        "retail_sentiment": "neutral",
+        "trending_narratives": [
+          "Cybercab production and testing"
+        ]
+      },
+      "institutional": {
+        "recent_moves": "mixed",
+        "notable_positions": [
+          "Vanguard Group Inc",
+          "BlackRock, Inc.",
+          "State Street Corp"
+        ]
+      },
+      "short_interest": {
+        "percent_of_float": "2.57%",
+        "days_to_cover": 1.03,
+        "squeeze_risk": "low"
+      },
+      "score": 4,
+      "key_narratives": [
+        "Decline in vehicle sales, particularly in China",
+        "Increased competition in the EV market"
+      ],
+      "sentiment_risks": [
+        "Further reduction in delivery estimates",
+        "Negative impact from increased competition"
+      ],
+      "summary": "Market sentiment for Tesla (TSLA) is currently bearish. Recent news indicates downbeat delivery estimates and concerns over valuation. Analyst ratings are mixed, with a consensus of Hold. Social media buzz remains high, but overall sentiment is neutral. Short interest is relatively low, suggesting a limited squeeze potential. Recent news mentions that Tesla's stock is on a 5-day losing streak due to weak Q4 outlook.",
+      "_sources": [
+        {
+          "title": "morningstar.com",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGFY7iiIjkryf7Qevyl8e2NPGq-8NxtcY4e6Ow69n58H6ntDHxnT7XMvu7IxCXDRhJqwmG7nI98IpVrtMe-nZ2irzbbJtdRn7JNuuUiQo92z32f55_DvrsgR-oRiKIduMT5UVrYZ3dVKroD0AY="
+        },
+        {
+          "title": "businessinsider.com",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGXXEUasCsnBJh8WOhNVfTK1aVnf8Xi2McAf7Gohsa4dCcDwpDLngiogqoOPxzoRh6-rTqp-gRM5p5UdECRfCcuW8ncsR6OgGzuAYRRidsRkdWnEM1ytXcYPUxb3Usp6uL5zTBFUhryEJCfltVdv-o="
+        },
+        {
+          "title": "trefis.com",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFD4cMHYDbfgpHA7i1p3gdhpJ5F25R_hGY_T1u3Ee1QDbTlBfVPAph1jaGm8V5qNarZ21J_xFwQDo_0gLQDMhanpiQwH9EA42B0eOFGpMCM__ptxFzRsyonV0Mcn1Aet-v1b__C22V3enIJA6x17raKXo_uRsVsBRzbyw_OkoLQdId6VYw3vwXl18W9ppgGLPIXehATDWAXe_X-fdeWsKl8nevxRf6AePNwrcJj-NWV9pRH4O7-bY-wGjfcINfy8dA="
+        },
+        {
+          "title": "public.com",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFxVTshlOpCosI8e9BY7M2pGycITjyVvV0scicDoxB-Cr360qkuWvr0oAdFYW9-dBZlB4rCj-M5kJMxH13V7A1PRs1D3fP-hnxxplnwt2lJZ4gqcbJOXDfxxlakDX3A_Di3LI7PGo65GQ4o1QPUKw=="
+        }
+      ]
+    },
+    "valuation": {
+      "ticker": "TSLA",
+      "company_name": "Tesla, Inc.",
+      "current_price": "$454.43",
+      "market_cap": "$1.51 trillion",
+      "enterprise_value": "$1.29 trillion",
+      "multiples": {
+        "pe_ttm": 307.12,
+        "pe_forward": 227.51,
+        "ps_ratio": 15.8,
+        "ev_ebitda": 105.6,
+        "ev_revenue": 15.9,
+        "peg_ratio": null
+      },
+      "historical_context": {
+        "pe_5yr_avg": null,
+        "current_vs_history": "above_average",
+        "percentile": "N/A"
+      },
+      "peer_comparison": {
+        "peers": [
+          {
+            "ticker": "GM",
+            "pe": 11.3,
+            "ps": null
+          },
+          {
+            "ticker": "F",
+            "pe": null,
+            "ps": null
+          }
+        ],
+        "vs_peers": "premium",
+        "premium_discount_pct": "+1000%"
+      },
+      "analyst_targets": {
+        "consensus_target": "$385.34",
+        "target_low": "$19.05",
+        "target_high": "$600.00",
+        "implied_upside": "-18.91%"
+      },
+      "fair_value_estimate": {
+        "value": "$29.57",
+        "methodology": "Relative Valuation based on P/E multiples",
+        "key_assumptions": [
+          "Trailing P/E multiples between 12.9x - 22.1x",
+          "Forward P/E multiples between 8.5x - 13.8x"
+        ],
+        "upside_to_fair_value": "-93.8%"
+      },
+      "verdict": "significantly_overvalued",
+      "score": 2,
+      "valuation_risks": [
+        "Decline in vehicle sales, especially in China",
+        "Expiration of U.S. federal EV tax credits",
+        "Increased competition in the EV market",
+        "Failure to achieve Full Self-Driving (FSD) and robotaxi goals"
+      ],
+      "summary": "Tesla's current valuation appears significantly overvalued based on P/E, P/S, and EV/EBITDA multiples compared to peers. Analyst price targets suggest a potential downside, and revenue growth has slowed. A relative valuation based on P/E multiples indicates a fair value significantly below the current market price.",
+      "_sources": []
+    }
+  },
+  "sources": [
+    {
+      "title": "financhill.com",
+      "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEKOGOj9VeekcpB5yaiSOwqSP4E6e2VgL_Jyb5dNuY-LWpsAC5_kCuf-oQ9W2ckgziBXpXk7jiRY2S3hYl8-EpyudNazTPXlgsH_8Avv19xXDhXcSH43UCFcNh0Oh9RaE6-UK4QI-WwWsV4G5Vsb5HFXvI7Y4ZTZvV0PeuA9kjjr1w="
+    },
+    {
+      "title": "gurufocus.com",
+      "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGo1_hHTu9raebKQzMqrZvv1-Dv6jaXDpp7TN_Ef5nqJbmhLTQZtbcwkxS_1OOvUwBJzeKhDsZSxTa4g6w4a7xjZAiQTehL1bmauEpjK4MEhUF8YPB804vZhJGqwYk0d3HAPkYFdGPUa60="
+    },
+    {
+      "title": "ecomoat.ai",
+      "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHC27dPCMTHVfqhBa0AEu22bptDfozsa07d1r12DQKSsklsM0RpVPbxZITQVAQpb1FRJXiI7CAHofgtSZKKyk1JYl0xue86YZErq1MxcU-GVrFErh8O4wpnyDBS0NRUhbwG3EAGuLmxXgWCRF2MVww="
+    },
+    {
+      "title": "moomoo.com",
+      "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEehhiW_rf0JoigdBx8JCxIeKTVDA83yoPJEVNZOHGPg1t0HP9pJV8pTRGKFwiHenptHAWd_Xen9h81C8ucQZjlQJWWlqZVktG5WHsHVeSyI237lvmNCVCYPrEQdrQbCQV4UAmFbX1wlqtA3To7YVeJh35y400-uze-5VzSJP33yGKqWQ6hrhxMf5-U-RsXeuyrDyzb6wQzieSIMv2-6CDcHaSEwzIv8Q=="
+    },
+    {
+      "title": "tesmanian.com",
+      "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHi0ZNghFeulLYZ8k8dDuQ3nM6PZ6MZTR2teAnViytl44TWyNXvTyfBFEiXf8LDcCR4kYCLlXyhErUct5xu2RxSDKpSIQI404DyL-kv-egdInYQTB0WOYTCkLv77mqfh89q4zbJYbnMMf1NfEZ2pG4Ncs9nwBKG7shvbAwESAzwy2h0pVMFxg677lUbRbaqgfykCrroA335iA5u4QafTyG4an8eEeCss2hPFedv15rdPrjT4xdFdgiLQb7OvQgn4b9mZR8pufEVKdk4AKYuNrnqEdtvQhY9CR4nryB5OuQWzHC_VfgNaT1ZITkIZqjj3RRM"
+    },
+    {
+      "title": "thedriven.io",
+      "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHKQEnmYxlsHSInh9rYfveop3aoFLX45lIhDGght-JmCj_EGAksGacOmplE5VWSMF6osxHfH4UTCAMbwn2Rp27W2ubIe9NLOhN7zxPkHWIlSFckCCJSBQg0QeqpXxwW8Hyct-7vBUVdZuc5yLkWDsXwUIosIzoSXcxo0UK26zzHrDm4LCpiemzQLSalebY7lNRwGji5"
+    },
+    {
+      "title": "financialmodelingprep.com",
+      "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHnPgMUG1DIT8cxf_COxUE2VwhKU8rJxyXZ9wp8Hd8CVPts0mJnoV7UaUbNUJiH7mZlBBOwCwPulWu6ubrH2BDp58gD1gIdpG33yJaVWPoEtL8T-gBssg2VmDL_jeJK-M7Fu5k7TgH7npinr1LOxVBvPNVkH2PSsoVwRF4dN-KEoI0IDwv5yraLTvQ0NKy8zUVxC0WqY8p1J7jfjUAy6Jb1td3BL-6We2kQ9U-bf_xj"
+    },
+    {
+      "title": "thestreet.com",
+      "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHxIwbLlAPEF5xNOcSxdE5O6I_MDQXWhwOrnfKjW441bkJeIS9_fu93RRllF7fmsb9CbjwB6LGw5bMLM8N4IYZnR6mWDH4lyqsrfnyhiz9NYHif9uQX_2g_XceIMvyCN0r4h6GxHnNdDNcCIzzZ10_u5BdGE44m-9KVnr0E-sudaENQ4UnYwWTpCuWe5T7CM9g="
+    },
+    {
+      "title": "investopedia.com",
+      "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFjtmim5HRjuGupL9zsJARDUEmhwVszVW_Gt9o1uSD_0zpuUo_6_adW4IIeN6e2ssw-ngXPjBbcSRwzyVd3vmTb2H2oqB1hOiDIH7RUYbVEVb93TAW-5FLJ9d7OpZUOft8eELuo4VoV65adSp3rsaPwTPvo9ViDjd8vINL22NI38aJvR--A-5ExC4iXD3w964H_pjY="
+    },
+    {
+      "title": "morningstar.com",
+      "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGFY7iiIjkryf7Qevyl8e2NPGq-8NxtcY4e6Ow69n58H6ntDHxnT7XMvu7IxCXDRhJqwmG7nI98IpVrtMe-nZ2irzbbJtdRn7JNuuUiQo92z32f55_DvrsgR-oRiKIduMT5UVrYZ3dVKroD0AY="
+    },
+    {
+      "title": "businessinsider.com",
+      "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGXXEUasCsnBJh8WOhNVfTK1aVnf8Xi2McAf7Gohsa4dCcDwpDLngiogqoOPxzoRh6-rTqp-gRM5p5UdECRfCcuW8ncsR6OgGzuAYRRidsRkdWnEM1ytXcYPUxb3Usp6uL5zTBFUhryEJCfltVdv-o="
+    },
+    {
+      "title": "trefis.com",
+      "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFD4cMHYDbfgpHA7i1p3gdhpJ5F25R_hGY_T1u3Ee1QDbTlBfVPAph1jaGm8V5qNarZ21J_xFwQDo_0gLQDMhanpiQwH9EA42B0eOFGpMCM__ptxFzRsyonV0Mcn1Aet-v1b__C22V3enIJA6x17raKXo_uRsVsBRzbyw_OkoLQdId6VYw3vwXl18W9ppgGLPIXehATDWAXe_X-fdeWsKl8nevxRf6AePNwrcJj-NWV9pRH4O7-bY-wGjfcINfy8dA="
+    },
+    {
+      "title": "public.com",
+      "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFxVTshlOpCosI8e9BY7M2pGycITjyVvV0scicDoxB-Cr360qkuWvr0oAdFYW9-dBZlB4rCj-M5kJMxH13V7A1PRs1D3fP-hnxxplnwt2lJZ4gqcbJOXDfxxlakDX3A_Di3LI7PGo65GQ4o1QPUKw=="
+    }
+  ]
+}

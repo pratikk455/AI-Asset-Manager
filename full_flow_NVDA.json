@@ -1,0 +1,627 @@
+{
+  "discovery": {
+    "theme": "AI / Machine Learning",
+    "stocks": [
+      {
+        "ticker": "NVDA",
+        "company": "NVIDIA Corporation",
+        "market_cap": "$4.6 trillion",
+        "theme_exposure": "Nvidia is the leading provider of GPUs and AI infrastructure, essential for training and deploying AI models. Its CUDA platform has created a wide moat.",
+        "position_in_theme": "leader",
+        "why_picked": "Nvidia is the dominant player in AI infrastructure and benefits from the insatiable demand for AI compute. Recent acquisitions have further strengthened its position.",
+        "signal": "Nvidia's Q3 2025 data center revenue reached $30.8 billion, driven by AI training demand."
+      },
+      {
+        "ticker": "NBIS",
+        "company": "Nebius Group",
+        "market_cap": "N/A",
+        "theme_exposure": "Nebius Group provides full-stack AI infrastructure, including large-scale GPU clusters and cloud platforms for AI developers.",
+        "position_in_theme": "pure_play",
+        "why_picked": "Nebius Group is targeting substantial revenue growth driven by strong demand for AI compute, with major contracts secured with Microsoft and Meta Platforms.",
+        "signal": "Nebius Group aims for $7B to $9B in annualized revenue by the end of 2026, implying potential growth of 521% to 900%."
+      },
+      {
+        "ticker": "AVGO",
+        "company": "Broadcom Inc.",
+        "market_cap": "$1.66 trillion",
+        "theme_exposure": "Broadcom provides custom silicon and networking solutions critical for AI infrastructure.",
+        "position_in_theme": "picks_and_shovels",
+        "why_picked": "Broadcom is a core beneficiary of the AI boom, particularly through its role in Alphabet's TPU ecosystem.",
+        "signal": "Broadcom's importance in AI has become more apparent as Alphabet reasserts itself as a leader in AI."
+      },
+      {
+        "ticker": "VRT",
+        "company": "Vertiv Holdings",
+        "market_cap": "N/A",
+        "theme_exposure": "Vertiv provides critical power, cooling, and thermal-management solutions for data centers.",
+        "position_in_theme": "picks_and_shovels",
+        "why_picked": "Vertiv is a pure play on the physical infrastructure buildout required for AI, with strong backlog growth and improving visibility.",
+        "signal": "Vertiv has announced expanded partnerships with large data center operators and hyperscalers."
+      },
+      {
+        "ticker": "ANET",
+        "company": "Arista Networks",
+        "market_cap": "$166.78 billion",
+        "theme_exposure": "Arista Networks offers data-driven networking solutions for cloud environments and data centers.",
+        "position_in_theme": "picks_and_shovels",
+        "why_picked": "Arista is a primary beneficiary of the competition between Ethernet and InfiniBand, crucial for data movement in AI clusters."
+      },
+      {
+        "ticker": "EME",
+        "company": "EMCOR Group",
+        "market_cap": "N/A",
+        "theme_exposure": "EMCOR provides electrical and mechanical construction services, benefiting from data center buildouts.",
+        "position_in_theme": "picks_and_shovels",
+        "why_picked": "EMCOR's data center demand led to record remaining performance obligations (RPOs) in its Network and Communications end market.",
+        "signal": "Data center demand has nearly doubled EMCOR's RPOs compared to a year ago."
+      },
+      {
+        "ticker": "MRVL",
+        "company": "Marvell Technology",
+        "market_cap": "N/A",
+        "theme_exposure": "Marvell provides high-speed electro-optics (SerDes) and DSPs required for 1.6T networking in custom silicon designs.",
+        "position_in_theme": "picks_and_shovels",
+        "why_picked": "Marvell has captured the new wave of custom silicon designs from Amazon (AWS) and Microsoft.",
+        "signal": "Marvell's 3nm custom silicon projects for AWS and Microsoft are expected to hit volume production."
+      },
+      {
+        "ticker": "META",
+        "company": "Meta Platforms Inc.",
+        "market_cap": "$1.68 trillion",
+        "theme_exposure": "Meta is deploying advanced AI across its platforms and building infrastructure for next-generation AI experiences.",
+        "position_in_theme": "challenger",
+        "why_picked": "Meta's investments in AI research yield practical applications, and its open-source Llama models position it as a key enabler of the broader AI ecosystem.",
+        "signal": "Meta has the financial strength to invest in the AI opportunity and rewards shareholders with dividend payments."
+      },
+      {
+        "ticker": "AMZN",
+        "company": "Amazon.com Inc.",
+        "market_cap": "$2.49 trillion",
+        "theme_exposure": "Amazon embeds AI throughout its ecosystem, from e-commerce and advertising to cloud infrastructure (AWS).",
+        "position_in_theme": "challenger",
+        "why_picked": "Amazon benefits from AI adoption at every level, both as a massive user and a provider of AI infrastructure.",
+        "signal": "Amazon has committed another $35 billion to AI expansion and forecasts 18% annual earnings growth."
+      },
+      {
+        "ticker": "GOOGL",
+        "company": "Alphabet Inc.",
+        "market_cap": "$3.79 trillion",
+        "theme_exposure": "Alphabet is the only major AI player not reliant on Nvidia, thanks to its Tensor Processing Units (TPUs).",
+        "position_in_theme": "leader",
+        "why_picked": "Alphabet's TPUs are in their seventh generation and have been battle-tested by running Google's workloads for over a decade.",
+        "signal": "Alphabet is generating growth from AI and offers access to its Gemini LLM to customers."
+      },
+      {
+        "ticker": "CRWV",
+        "company": "CoreWeave",
+        "market_cap": "N/A",
+        "theme_exposure": "CoreWeave offers a purpose-built cloud platform for AI workloads, with GPU compute and managed services.",
+        "position_in_theme": "pure_play",
+        "why_picked": "CoreWeave has strong demand and a revenue backlog exceeding $55 billion, supported by long-term contracts with OpenAI, Microsoft, and Meta.",
+        "signal": "Analysts project CoreWeave's 2026 revenue to grow by around 134% to 138%."
+      },
+      {
+        "ticker": "TSM",
+        "company": "Taiwan Semiconductor Manufacturing Company",
+        "market_cap": "$1.26 trillion",
+        "theme_exposure": "TSMC manufactures chips for AI applications, including Nvidia's GPUs.",
+        "position_in_theme": "picks_and_shovels",
+        "why_picked": "TSMC's best-in-breed foundries are essential for producing the advanced chips required for AI.",
+        "signal": "TSMC's 3nm and 2nm chip manufacturing positions it as a critical enabler of AI's global expansion."
+      }
+    ],
+    "summary": "The AI/ML theme offers diverse investment opportunities across infrastructure, applications, and enabling technologies. Key players like Nvidia, Alphabet, and Meta are driving innovation, while picks and shovels companies like EMCOR, Vertiv and TSMC benefit from the buildout of AI infrastructure. Companies like Nebius and Coreweave that focus on providing AI infrastructure are also well positioned to benefit from the AI boom."
+  },
+  "analysis": {
+    "ticker": "NVDA",
+    "thesis": {
+      "ticker": "NVDA",
+      "company_name": "NVIDIA Corporation",
+      "recommendation": "buy",
+      "conviction": 0.75,
+      "target_weight": 0.06,
+      "thesis_summary": "NVIDIA is the undisputed leader in the AI revolution, boasting exceptional revenue growth, industry-leading profitability, and a wide economic moat fueled by its CUDA platform and patented technologies. While valuation is a concern, the company's dominance in high-growth markets like AI and data centers, coupled with strong market sentiment, justifies a BUY recommendation. We believe NVIDIA will continue to benefit from increasing demand for AI infrastructure, making it a core holding for long-term growth.",
+      "bull_case": {
+        "summary": "NVIDIA's dominance in the AI and data center markets, coupled with its strong moat and accelerating revenue growth, positions it for sustained outperformance. Continued demand for AI infrastructure and the company's innovative product roadmap should drive significant shareholder value.",
+        "key_points": [
+          "NVIDIA's CUDA platform creates significant switching costs, locking in developers and customers.",
+          "The company's strong patent portfolio and technological leadership provide a durable competitive advantage in key growth areas.",
+          "Analysts are increasingly confident in NVIDIA's upside potential, with consensus price targets suggesting significant gains."
+        ]
+      },
+      "bear_case": {
+        "summary": "NVIDIA's high valuation and increasing competition pose significant risks. A slowdown in AI spending or a failure to maintain its technological lead could lead to a substantial correction in the stock price.",
+        "key_points": [
+          "NVIDIA's valuation is stretched, with high expectations already priced into the stock.",
+          "Increasing competition from AMD, Intel, and custom silicon development by major cloud providers could erode NVIDIA's market share and profitability."
+        ]
+      },
+      "key_risks": [
+        "Intensifying competition in the AI chip market",
+        "Geopolitical risks related to Taiwan and U.S.-China trade tensions",
+        "Regulatory scrutiny regarding NVIDIA's market dominance"
+      ],
+      "catalysts": [
+        "Continued growth in AI infrastructure spending",
+        "New product releases and technological advancements",
+        "Positive earnings surprises and upward revisions in analyst estimates"
+      ],
+      "score_breakdown": {
+        "fundamentals": 9,
+        "moat": 8,
+        "sentiment": 8,
+        "valuation": 4,
+        "overall": 7
+      },
+      "investment_horizon": "long_term",
+      "price_target": "$265",
+      "stop_loss_suggestion": "$169 (10% below current)",
+      "full_thesis": "NVIDIA is a compelling investment opportunity due to its dominant position in the rapidly growing AI market. The company's strong fundamentals, wide economic moat, and positive market sentiment outweigh concerns about its high valuation. NVIDIA's CUDA platform and extensive patent portfolio create significant barriers to entry, ensuring its competitive advantage for years to come. While valuation is a concern, the PEG ratio of 0.72 suggests that growth is outpacing the P/E ratio, making the valuation more palatable. The company's leadership in AI training and inference, coupled with its strong relationships with major cloud providers, positions it to capitalize on the increasing demand for AI infrastructure. \n\nDespite the high valuation, we believe that NVIDIA's growth prospects justify a premium. The consensus analyst price target of $262.79 implies a significant upside, and recent upward revisions suggest that analysts are becoming increasingly bullish on the stock. However, investors should be aware of the risks, including increasing competition, geopolitical tensions, and regulatory scrutiny. A stop-loss order at 10% below the current price can help mitigate potential downside risk. \n\nWe recommend a BUY rating with a target weight of 6%. This position size reflects our conviction in NVIDIA's long-term growth potential while acknowledging the risks associated with its high valuation. We believe that NVIDIA is a core holding for any investor seeking exposure to the AI revolution and that the company's innovative spirit and market leadership will continue to drive shareholder value in the years to come. NVIDIA's ability to stay ahead of the curve, as evidenced by its early investment in AI, is a testament to its management team and its commitment to innovation. This, combined with its strong financial performance and wide economic moat, makes NVIDIA a compelling investment opportunity."
+    },
+    "research": {
+      "fundamentals": {
+        "ticker": "NVDA",
+        "company_name": "NVIDIA Corporation",
+        "revenue": {
+          "latest_ttm": "$187.14B",
+          "yoy_growth": "65.22%",
+          "cagr_3yr": "68.5%",
+          "trend": "accelerating"
+        },
+        "profitability": {
+          "gross_margin": "73.41%",
+          "operating_margin": "62.26%",
+          "net_margin": "53.01%",
+          "trend": "stable"
+        },
+        "balance_sheet": {
+          "total_debt": "$10.48B",
+          "cash_and_equivalents": "$11.49B",
+          "net_debt": "-$0.99B",
+          "debt_to_equity": "0.09",
+          "health": "strong"
+        },
+        "cash_flow": {
+          "operating_cash_flow_ttm": "$64.09B",
+          "free_cash_flow_ttm": "N/A",
+          "fcf_margin": "N/A",
+          "quality": "strong"
+        },
+        "key_ratios": {
+          "pe_ratio": "46.43",
+          "ps_ratio": "23.70",
+          "roe": "N/A",
+          "roa": "N/A"
+        },
+        "score": 9,
+        "strengths": [
+          "Exceptional revenue growth, driven by data center dominance",
+          "Industry-leading gross and operating margins",
+          "Strong balance sheet with a net cash position"
+        ],
+        "concerns": [
+          "High valuation (P/E ratio)",
+          "Dependence on major cloud providers"
+        ],
+        "summary": "NVIDIA exhibits exceptional financial fundamentals, driven by its leadership in the AI computing space. The company demonstrates strong revenue growth, industry-leading profitability, and a robust balance sheet. While valuation is high, NVIDIA's growth trajectory and competitive advantages justify a premium.",
+        "_sources": [
+          {
+            "title": "vtmarkets.com",
+            "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQH6y3V4SCwOcMOaPNtPW0OFEVZEDpUqdClnmgO6137Ugvh9vqbNyGLW8OdBZakffNUpB2wY-7iLpEcoog_0kS3DVvpq5dD15cPsVR-CSaI-AVXZZ5LdLsOVMdyISz5SQDm0e2PVZBrk2fTm3-SbTzzum7GbUPEdsTn0pii1OqlJHByE6riWCbAdJgxa-_TBzF0uZQe8pgx6TnToZrw="
+          },
+          {
+            "title": "stockanalysis.com",
+            "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHJdmHUoMx4a8c-1kvQdiDdO-JnaX0Gc9Yy8AxQwCHfs0vpARJy5hgZZk1u_PkwzFeOs7YZMI8xXZPr_LHABcIjR1mmMSS-M02U0pPnvkIwy8X4JIyftK2qt_Q6bAc9gVID4tG-sOJxbKv5z2hqtgUuucfnwEDptJAydQ=="
+          }
+        ]
+      },
+      "moat": {
+        "ticker": "NVDA",
+        "company_name": "NVIDIA Corporation",
+        "moat_sources": [
+          {
+            "type": "switching_costs",
+            "description": "The CUDA software platform, introduced in 2006, has created a developer ecosystem that competitors cannot easily replicate. Millions of developers have built applications, tools, and expertise around CUDA, creating tremendous switching costs. Most AI developers have built their entire codebases on CUDA; switching to a competitor's chip requires a costly and risky software migration.",
+            "strength": "strong"
+          },
+          {
+            "type": "intangibles",
+            "description": "NVIDIA possesses a highly valuable portfolio of patented technologies, particularly in AI chip architecture, autonomous vehicles, and robotics. These patents are strategically focused on high-impact areas like generative AI, edge computing, and safety systems, supported by strong industry adoption and forward citations. NVIDIA's patents reflect its leadership in graphics processing, AI, machine learning, data handling, and user interfaces.",
+            "strength": "strong"
+          },
+          {
+            "type": "network_effects",
+            "description": "NVIDIA's GPUs power the AI revolution, creating a network effect where each additional user drives more demand. Platforms like CUDA and its deep partnerships with AI research institutions create a virtuous cycle of innovation and growth. The company's large installed base creates an attractive market opportunity for developers to make improvements needed to attract even more users.",
+            "strength": "moderate"
+          },
+          {
+            "type": "cost_advantages",
+            "description": "NVIDIA's volume lead will make it the low cost producer and, by far, the most economical platform to run AI at scale \u2013 for both training and inference. Due to their better performance and lower cost to run, NVIDIA's AI chips more than offset their higher price by providing customers the \u201clowest total cost of ownership.\u201d",
+            "strength": "moderate"
+          }
+        ],
+        "moat_width": "wide",
+        "moat_trend": "stable",
+        "durability_years": 20,
+        "main_threats": [
+          "Increased competition from AMD, Intel, and startups specializing in AI inferencing.",
+          "Custom silicon development by major customers like Google, Amazon, and Microsoft, reducing reliance on NVIDIA's GPUs.",
+          "Geopolitical risks, particularly related to Taiwan, which could disrupt TSMC's production and halt NVIDIA's business."
+        ],
+        "competitive_position": "leader",
+        "key_competitors": [
+          "Advanced Micro Devices (AMD)",
+          "Intel",
+          "Google",
+          "Amazon",
+          "Microsoft"
+        ],
+        "score": 8,
+        "summary": "NVIDIA has a wide economic moat due to its CUDA ecosystem, strong brand, and leading market share in GPUs for AI and gaming. While competition is increasing and some customers are developing their own chips, NVIDIA's technological lead and established ecosystem provide a durable competitive advantage.",
+        "_sources": [
+          {
+            "title": "seekingalpha.com",
+            "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEUe-VMzYPm9bS7XbI_Sdeko65vQiBEyPY4cvtopH3Qrfa7IcYhtC6WYAKEA3ghVS6VHVkq3QGgVP0oa1TWxVv4MtLH0v-suNTW2yM2zYDHUjvcyyqMFmjobLBBkSOYVsjXcwJ7TKPT8l7ntGCh2UEw5Z_9G11raEGaeRtHJqtTUJD44_kKsol8k4O-nSj5kjY1qzUw"
+          },
+          {
+            "title": "vtmarkets.com",
+            "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFb2nP1yhujV8tWk8-DTPvYKTBGpv92HB2Weqdoy__M5hde_YZXrhGHZijcdrw2Au1U8wHzqL854QYoFpDElRHouTMR0ES4HlZLyrdpto-I07mV3qaybQaKhTqpOTfavWZDg6q-3XjV0AwxIUv3glidJ9Tn2dnsbPLO9ZmJgXxdHAjQdASPJaGOtfMfHT84iiMk4unR5JTRbRZnhX4="
+          },
+          {
+            "title": "financialcontent.com",
+            "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHYNIww7WUxSoZRFn9eM8N3Hmj1pHLZGz7V2E44HMwk8SRP26eCvaRHqaIsicK88C1unn__I8Lllgzh-0OTnQmJt_lPArSKwbYnOF0F6GE--1BORvZHfx0pmBz9W3RF-wDfa2rD7N5LBs0J97SkPXMUNdupjTJZkoFjkOWo6BTRwz6Qyi6MZ1JRpVInMCk0njRXkskYcnj2XLK_ZYRkl3zbhfU_XWvaQv0o-tMxzB7dtcdVg_o31XmwU5aaBaT1u7w4MCK0ILIKDQF9OWkeUg=="
+          },
+          {
+            "title": "dcfmodeling.com",
+            "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFyL-wOj3zp-5-KSan860Pp2viuGoWDGExqqRA9B_H76Zur-doQCv8EeRhhNJEeZhWV-L91g3AF8XAv8t3xdEmd-RkPpdS8hhcfydwaDSd9QpIOwlKZecBkA5YKWYHXLGHmtmxoSePb6jJc1W7O8PXSHhjFHinr"
+          },
+          {
+            "title": "ainvest.com",
+            "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQH6j1eSQXgL3mrJgkj1G_untMZ37wBUT3EvSJPoFkeTEUBH1E_NKR5hwQaUhvYVrnoNK_zuqIiUbzGF8_7FIfL8C0sB2JcJf0jvAaZDuLlmpciNeY8xQp3yj2Kr-wLYxJy_st8-Rj1XFVb0NwxsHk_QRwLSGjRpnqK1wqbhrUzIucIXDSxZWHINWWD5DkMSg30="
+          },
+          {
+            "title": "pinepat.com",
+            "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEZLN_hzjNqcorJcSCzAnplpxTDCBA_UkoQPkDJ-Cm2EkNzNXLSCwBcJ_jPic4IjMyiKGgQQxUFZHxBBNUQ8wmEEuJ6tdNTVsToxDdEIF6-WBP_BLIY8lnCtFN1Kua0ovNZfEEvfSbn980mpT4_2BK89Xr-iA_7VNzlR51rPO8TG7WvZDRPhmDvuvLSwqGeJkFxSSUGdBdOFLb9"
+          },
+          {
+            "title": "justia.com",
+            "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFiRV4pE4MwEsEjosngzCbZoUcFxgKSZg8fzy-brX2LrSOz7s6dZHwvvvqmawwXPdyqrZgqgZM2eH7hDmoJM8Ub-Hz1_1JW9_J9bDTuPj2VJfYy3ouDOMtPg7ArL5hlY0WMJDf5BN0kX109IoHH_4S-Aw=="
+          },
+          {
+            "title": "verdict.co.uk",
+            "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEDixbJwSzJTedvkRCsj7jtdDRJzfOHD5LRVGCsLXoyHDS_LRhbIj5XgoZugG3Tan0xYlZlBFqsQhJCE7WJeThrXxH1bCOj0n0johNyP1WSK1wSCXq0N_NcIPJTPggipd0R5lLshfKM6D7BjTo="
+          },
+          {
+            "title": "iiprd.com",
+            "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQG-az3EP5r0nrqGYUek38tQ9Y8eEGQ8nc4PRfj6hx70UQVL0DGLMAWx9Afs5-K3XvktwVUjutkHukBAt0KdGkjSZhRMULOatblCfHA6vprk4YIMUPR9icDWL7yqrbUJn8OQ1R8Q6Cea6eUdQsn5RzSa8fpTWmEn3Jtg4MvUuIbvtAH2x9hEmw=="
+          },
+          {
+            "title": "vicapartners.com",
+            "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGsQyp2MYtOGPpQdccUOIlsHmAEvzMcHYJeYhv7giVzwKocvsr9A14drzijEImaKpELpqdIzixe-Ukcpp2L6K7U1St4Qmbr3f7qtFQoF2ga46bGRaE_Yn36vHh0UBafxg5qGe7pWWR8bjpxzx27-DMu86HPj-581fq0ybFcnBqxzq9yUDk9t9kv3Kn9AQ_uF37BJkGe9iaZqME2sXjMhi8="
+          },
+          {
+            "title": "medium.com",
+            "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEQXlK2XziyR3dcNFLM33BdZD_063iOuehDqWOw_0CNKjVs8J159ZUchfMJV-RHIOUWFOXFRQu3tiaU-AEYqhAVOvuqzjeMEX4mgUACxnTo7Nto17b356A2ha03ELNRBlgk0MTNc7ezqDaACr5Q5czq7vsfw2732WhtywbgWc0del0I8aacTdyvDeLUzN-ICqQohorMaFRj0Wpk7odOedwInHB-rkso33ahhTk="
+          },
+          {
+            "title": "substack.com",
+            "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQG0kKzWfRxYAwoxUJIoARmsRvmbpZ7VNzlx10aLnUERZdjRnn2xi8YiY1GZ8qLHTE6frD8mKja_eZlnwg8pOk4-AAoohvKsJS2ifXJXwEeqPMTJwSA0ImUIoB3M4NDktcHW2Vxg-oVlzkvZN9PgxZtn6T9S_RRRrIpr5MR2ighzLg=="
+          },
+          {
+            "title": "ajbell.co.uk",
+            "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHZitRB1ZoCQ5OqhMNriw48LjE6eumHKmq2fohN3_79EwDCuBqbw4iLvLYrLGP5gGe_438na-DHRoDo5cYzvE68f2LZM-zmirJyQvAoJ7KxKFHJzy7M0Wakrrv3TNDblHwa2q2mZDB2DML46WgiaVT6H2m33VfloXjFq4cd2HNNfNDpl4amiF7hPmRaji11_Ez2N9zfToSJWk6xlYbb9r9i70DB5Ropvl4i_q5UIswWAY_QrGE="
+          },
+          {
+            "title": "forbes.com",
+            "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEQn7uQAwbABcspoV03iBmE-vdmbJKmI3eBoYLNskQ4ULWvNCsJTYTn7uNOtIHGS8aGTQJ2sJxf9Y6gmT1SvPrbdinHxib8aS55q5iwv1F2j7rni-MEC9_wTIQTuXhKOFPoCnFq6mAp8W2qb9zA7hSNDmns2twAMZ0BC6AbiVCbCfVN-o3I5dMSCaDiozxdsF6PJGZnlIJnP8XFS4jueTzFWax2lGemna_qcjR-F5AP"
+          },
+          {
+            "title": "siliconangle.com",
+            "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFfu6cmsc_PAoWSBOUVRLY3R4aZwAW3zbz9J2FWDcuL_2NPLJD5UJp865_H2wGuBNN_3w_iri5QhNLIoNaa0_njiOle7P6FhkpNfKQbujBTnEqZobN0pfq2wGmCtZGv270XAwVEH2vjOTSMQt030GPHRIxyzgjKd2WIslGDk9lhAm61MWQhlKrAulAn1AA="
+          },
+          {
+            "title": "marketbeat.com",
+            "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQESS4mCUfuBcaxbFYcJM7huAFhWfUe7ZFHGT9FIc0LqAd7UMMGBvtqST6mCKY2TOS4sRw8raHlAHS1yRiKln314cCjtIb5g3bfR5vWnANCHN17dmJ9eGfBae-c6-eQY-7xMYpR2JZSSbBg9rE4WDVDADnAv3mXR-eFAsAzzrWoE3dPfiqWj2Q=="
+          },
+          {
+            "title": "businessmodelanalyst.com",
+            "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHVnN1Fp8Epb7YnohYkImVIDbeXyR1d_RBWWHQKPwwg5ZZfcLnKGhDJoLYziV-GFJ6_RbL65g9qOXqOhrvAxQUUj5F6HZ8CliT0yrOfgDnXb3S1P0q1LxcMkiHXAqGHBAN4oKTGVAL41WSKbL11YUY="
+          },
+          {
+            "title": "pocketoption.com",
+            "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFVV_-YtmIedTRYDXyLYYBwS7Vqyzpafg9A32aZFpHBXjxfSPq1hNZA3o0nmNbVtkRLE3RWmhQHRdk13GvZXheyoLBNJEdTfEbY9epU-Zu_GedbelQYVGEMo4BMiZSGtEX7BpmIMLYT2jbZDcPoAegPn-MoLe3lyWxWWiH15TmY8TbpvuiVm8QQxQ=="
+          },
+          {
+            "title": "fool.com",
+            "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGO7tuPMaYLiPFbNUvhfIdjnceZS9ReB7PBWQE7nC37i6KdmbFIecmup6ZKdBsldAYGeOtDIihg_vLUtJCJK_5v8NvdQtRY53Zg5rmdmml4k3Ns-uTRwBhk8R-h6jqlYb04YdTDfO2Oa_GISe7tX_WSZ9W0BbYGFEXZ8v4UqEcbNROVhvk5WMuVKT5gAzMk07hCluzMiFsWJA=="
+          },
+          {
+            "title": "seekingalpha.com",
+            "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHAG3LZHSPySg9DPEuUYIXNFLK7KK73obk0OZu6aASjK6VAgiQEs6Tj7Ol6tkU_OC66czKunbuaZVHtjlZDBaPpTpc-UuGbuU0LIaO6G5pSn02CFikNQBIsOn-ZohRu5PVM7DDlzxQK72uCzFsAj-46gxp5ljMRAACPaTFWOt8neurVIw8a1M0WrblEEWsNceiPUQg3EJswTNJkTEe4atFIv0jJ54eP-lqGmA=="
+          },
+          {
+            "title": "nasdaq.com",
+            "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHqvj-nZjVxHPMTNWfBKaBvfadMtokej3XKQgiAIL15ItJIZoxCAC8ipGrLv3RDTOC2HSjwO5d94wl9T578DkY7Ge6ce0Bs0CI44xCpM_5Fgl7fZ1kXrxgKyNpUa2r2OZBP_IH9apTNIyKSYzuEuilADKOESsSGKYRKFc555ENtj-93MzcL"
+          },
+          {
+            "title": "reddit.com",
+            "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHOapFqIA1bt9WWlHnpgoObt_vmE1aeyi1OSHNHfym055IScUtgqNfQa1MUcQUL7mUP1cEtStrT423kk74xO-M6nyRS9ge43quMWOOP9EKks4lntHCzCUlXi-G8qVfQCbRTkHWd-BdyEmxNP9lu1CoDjVFv-QW1EyyzD9LZwt8PEmPpDHuW82Pdzq9hyeZwXYlmSb3XjeAWCDk="
+          }
+        ]
+      },
+      "sentiment": {
+        "ticker": "NVDA",
+        "company_name": "NVIDIA Corporation",
+        "overall_sentiment": "bullish",
+        "news": {
+          "tone": "positive",
+          "key_headlines": [
+            "Nvidia sounds out TSMC on new H200 chip order as China demand jumps",
+            "Analysts are growing increasingly confident that NVDA still has meaningful upside ahead"
+          ],
+          "major_events": [
+            "Strong AI demand and Nvidia's growing leadership in high-performance computing"
+          ]
+        },
+        "analyst_ratings": {
+          "consensus": "Strong Buy",
+          "buy_count": 39,
+          "hold_count": 1,
+          "sell_count": 1,
+          "avg_price_target": "$262.79",
+          "price_target_low": "$200.00",
+          "price_target_high": "$352.00",
+          "recent_changes": [
+            "Tigress Financial raised the price target for NVDA from $280 to $350 and maintained a Buy rating"
+          ]
+        },
+        "social": {
+          "buzz_level": "high",
+          "retail_sentiment": "bullish",
+          "trending_narratives": [
+            "NVIDIA is the undisputed leader of the AI boom",
+            "NVIDIA's GPUs, networking, and full software stack have become the standard for AI training and inference"
+          ]
+        },
+        "institutional": {
+          "recent_moves": "mixed",
+          "notable_positions": [
+            "Vanguard Group Inc's holding of 2.22Bn shares",
+            "BlackRock, Inc. (1.93Bn)"
+          ]
+        },
+        "short_interest": {
+          "percent_of_float": "1.14%",
+          "days_to_cover": 1.54,
+          "squeeze_risk": "low"
+        },
+        "score": 8,
+        "key_narratives": [
+          "Nvidia is expected to benefit from the AI boom, with analysts predicting further gains in the new year",
+          "Wall Street analysts see the stock climbing another 40% in 2026"
+        ],
+        "sentiment_risks": [
+          "Antitrust regulators in the EU and the US are investigating whether the company uses its GPU dominance to force customers to buy its networking gear",
+          "U.S.-China tensions and export restrictions create hedging activity in options"
+        ],
+        "summary": "Market sentiment for NVIDIA (NVDA) is bullish, driven by its leadership in the AI market and strong analyst ratings. The stock is expected to continue its upward trajectory, with analysts predicting significant gains in 2026. However, investors should be aware of potential risks, including regulatory scrutiny and geopolitical tensions.",
+        "_sources": [
+          {
+            "title": "investing.com",
+            "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQE1zEsthIu1asCwIqE12ixiXqVtHs9QmVTRbgVFbMdqh4ZSjtD9womCA5_Jkvbgmd6x9naUzks07I_dMpDJJwwbe36BqJn-v5CITJJY3V4i4bYmtPprxhDj2QxlqBgDxtWIWGl4QaMYzd0="
+          },
+          {
+            "title": "tipranks.com",
+            "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGsCWP4NgU0PCNCWAFqcIPC12NV649V0WvWnsZ0UYRVonHGDSJCGW0DOpRiVA4AQTGl_3SdMtngGYAIRxNykuR3HMS1EDI_xjEZkH5W-v-TwdLrIeoNfj750dWenvafbWFeJ4IY2jE4iDUYQVvIzgDWIhkspgZGaKJHu8YtzXXkbtU8W_UbU5b-yvxLL_-2gK2TWJlPSDBm4JStwvEdhHdNAw1TMqOByBRbk1eu"
+          },
+          {
+            "title": "watcher.guru",
+            "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGeofmHG5_Hhy-_26mnat3a-Jcef7X-UwTHGCLC74Ab5pvxnqOoQy-rVZmRl8wHVjArweoaJ-oyE88p10Li7QJg6cmC-mBGP01uQvSFe95VmH6jzJmKJmNat9iSFw6mBXLXmIxA9uD7tbhJyIF4oDWdnFe9elMEY81ZzRxVR-Va1TGgDo-kHhaEFLgcfjw="
+          },
+          {
+            "title": "businessquant.com",
+            "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHKeTZDuItRcV34Nxb0Kr_mwRMLkDEPNnOIJyRR9EhUe-grFkTWB9JEKryfPoPF-_CH-BU6kMf10XRaERYnehF03_pLd8VdsNIKYsbcrYveC8ZV_A2Is7ebYbYU5piXg4syqi53sBN42iPV0OENYoLIm86iOEVimZE="
+          },
+          {
+            "title": "eqvista.com",
+            "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFRHDAOZwJ7rJGOAPPyLfMNVkYht9TxJdd7LLQfnkgegzBs7GvPj71vTBJEc0f3HawkQiSxIYnqpm87F6uNYpswxkK5D8dbF18HdnnX3voMLrUQgVHNHCxTDHUnL-Rb9B6_8oUGNQgxG6cV9A=="
+          },
+          {
+            "title": "financialcontent.com",
+            "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQE7S14h4y46NxLhaZ3W4eN5C6Nwgt3uiRneuK-rZ4S083C3mUBFJhbsaN8JjWRmlgzG8lCMR77TDzIVEMQafHbY57sicydOV5IxNp9RTeCXU3_8c_qpa__fZwm1O5ixjC-IvqyPeGCiXVDWtvQgvIkUPZSgDjYU9tSIC_7CsQaFu2uOiPEfG7aTo3jDvVOX6flCffHC9PXKtB548xUTGvlSlfVVwLImJwY2SYgXFiGgTzYkuEgsFiDBv-MfpvVhzpy1wUz2dETJJMhxUlKnLQ=="
+          },
+          {
+            "title": "ainvest.com",
+            "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEwoQE3j4Uo2ip4_dAz5UHjEC-GFztwPe1telRjtOMnLgYlfrM46wCaLWFK5TJPlfWNbwUgEBavr2FuyqbxxtuPsRqVVeIuM_-dfxMuQr8whAtRgr49tI2_LUMut8jtRkXOU6WIWHOFHNi7IIJqTFI5TpGc61AigkWVgSB9WKyVn__s5Knk31n9OHxX_j9nXMDBZpXuP2mO8fKWhqp0JT7_4CvF3q-avatnpOgNPG8k"
+          }
+        ]
+      },
+      "valuation": {
+        "ticker": "NVDA",
+        "company_name": "NVIDIA Corporation",
+        "current_price": "$187.73",
+        "market_cap": "$4.57 trillion",
+        "enterprise_value": "$4.52 trillion",
+        "multiples": {
+          "pe_ttm": 46.59,
+          "pe_forward": 26.91,
+          "ps_ratio": 24.55,
+          "ev_ebitda": 39.99,
+          "ev_revenue": 24.17,
+          "peg_ratio": 0.72
+        },
+        "historical_context": {
+          "pe_5yr_avg": null,
+          "current_vs_history": "above_average",
+          "percentile": "N/A"
+        },
+        "peer_comparison": {
+          "peers": [
+            {
+              "ticker": "AVGO",
+              "pe": 71.9,
+              "ps": null
+            },
+            {
+              "ticker": "AMD",
+              "pe": 29.6,
+              "ps": null
+            }
+          ],
+          "vs_peers": "inline",
+          "premium_discount_pct": "N/A"
+        },
+        "analyst_targets": {
+          "consensus_target": "$262.79",
+          "target_low": "$140.00",
+          "target_high": "$352.00",
+          "implied_upside": "+37.93%"
+        },
+        "fair_value_estimate": {
+          "value": "$136.81",
+          "methodology": "P/E multiples",
+          "key_assumptions": [
+            "Based on P/E multiples",
+            "Trailing P/E multiples, 31.0x - 38.9x, 32.8x"
+          ],
+          "upside_to_fair_value": "-28.2%"
+        },
+        "verdict": "overvalued",
+        "score": 4,
+        "valuation_risks": [
+          "High expectations embedded in the stock price",
+          "Dependence on continued high growth in specific sectors (AI, Data Centers)",
+          "Increasing competition from other chip manufacturers"
+        ],
+        "summary": "NVIDIA's current valuation reflects its high growth and market dominance, particularly in the AI and data center sectors. However, its multiples are elevated compared to historical averages and some peers, suggesting it may be overvalued. While analyst price targets indicate significant upside, a fair value estimate based on P/E multiples suggests downside risk.",
+        "_sources": []
+      }
+    },
+    "sources": [
+      {
+        "title": "vtmarkets.com",
+        "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQH6y3V4SCwOcMOaPNtPW0OFEVZEDpUqdClnmgO6137Ugvh9vqbNyGLW8OdBZakffNUpB2wY-7iLpEcoog_0kS3DVvpq5dD15cPsVR-CSaI-AVXZZ5LdLsOVMdyISz5SQDm0e2PVZBrk2fTm3-SbTzzum7GbUPEdsTn0pii1OqlJHByE6riWCbAdJgxa-_TBzF0uZQe8pgx6TnToZrw="
+      },
+      {
+        "title": "stockanalysis.com",
+        "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHJdmHUoMx4a8c-1kvQdiDdO-JnaX0Gc9Yy8AxQwCHfs0vpARJy5hgZZk1u_PkwzFeOs7YZMI8xXZPr_LHABcIjR1mmMSS-M02U0pPnvkIwy8X4JIyftK2qt_Q6bAc9gVID4tG-sOJxbKv5z2hqtgUuucfnwEDptJAydQ=="
+      },
+      {
+        "title": "seekingalpha.com",
+        "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEUe-VMzYPm9bS7XbI_Sdeko65vQiBEyPY4cvtopH3Qrfa7IcYhtC6WYAKEA3ghVS6VHVkq3QGgVP0oa1TWxVv4MtLH0v-suNTW2yM2zYDHUjvcyyqMFmjobLBBkSOYVsjXcwJ7TKPT8l7ntGCh2UEw5Z_9G11raEGaeRtHJqtTUJD44_kKsol8k4O-nSj5kjY1qzUw"
+      },
+      {
+        "title": "vtmarkets.com",
+        "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFb2nP1yhujV8tWk8-DTPvYKTBGpv92HB2Weqdoy__M5hde_YZXrhGHZijcdrw2Au1U8wHzqL854QYoFpDElRHouTMR0ES4HlZLyrdpto-I07mV3qaybQaKhTqpOTfavWZDg6q-3XjV0AwxIUv3glidJ9Tn2dnsbPLO9ZmJgXxdHAjQdASPJaGOtfMfHT84iiMk4unR5JTRbRZnhX4="
+      },
+      {
+        "title": "financialcontent.com",
+        "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHYNIww7WUxSoZRFn9eM8N3Hmj1pHLZGz7V2E44HMwk8SRP26eCvaRHqaIsicK88C1unn__I8Lllgzh-0OTnQmJt_lPArSKwbYnOF0F6GE--1BORvZHfx0pmBz9W3RF-wDfa2rD7N5LBs0J97SkPXMUNdupjTJZkoFjkOWo6BTRwz6Qyi6MZ1JRpVInMCk0njRXkskYcnj2XLK_ZYRkl3zbhfU_XWvaQv0o-tMxzB7dtcdVg_o31XmwU5aaBaT1u7w4MCK0ILIKDQF9OWkeUg=="
+      },
+      {
+        "title": "dcfmodeling.com",
+        "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFyL-wOj3zp-5-KSan860Pp2viuGoWDGExqqRA9B_H76Zur-doQCv8EeRhhNJEeZhWV-L91g3AF8XAv8t3xdEmd-RkPpdS8hhcfydwaDSd9QpIOwlKZecBkA5YKWYHXLGHmtmxoSePb6jJc1W7O8PXSHhjFHinr"
+      },
+      {
+        "title": "ainvest.com",
+        "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQH6j1eSQXgL3mrJgkj1G_untMZ37wBUT3EvSJPoFkeTEUBH1E_NKR5hwQaUhvYVrnoNK_zuqIiUbzGF8_7FIfL8C0sB2JcJf0jvAaZDuLlmpciNeY8xQp3yj2Kr-wLYxJy_st8-Rj1XFVb0NwxsHk_QRwLSGjRpnqK1wqbhrUzIucIXDSxZWHINWWD5DkMSg30="
+      },
+      {
+        "title": "pinepat.com",
+        "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEZLN_hzjNqcorJcSCzAnplpxTDCBA_UkoQPkDJ-Cm2EkNzNXLSCwBcJ_jPic4IjMyiKGgQQxUFZHxBBNUQ8wmEEuJ6tdNTVsToxDdEIF6-WBP_BLIY8lnCtFN1Kua0ovNZfEEvfSbn980mpT4_2BK89Xr-iA_7VNzlR51rPO8TG7WvZDRPhmDvuvLSwqGeJkFxSSUGdBdOFLb9"
+      },
+      {
+        "title": "justia.com",
+        "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFiRV4pE4MwEsEjosngzCbZoUcFxgKSZg8fzy-brX2LrSOz7s6dZHwvvvqmawwXPdyqrZgqgZM2eH7hDmoJM8Ub-Hz1_1JW9_J9bDTuPj2VJfYy3ouDOMtPg7ArL5hlY0WMJDf5BN0kX109IoHH_4S-Aw=="
+      },
+      {
+        "title": "verdict.co.uk",
+        "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEDixbJwSzJTedvkRCsj7jtdDRJzfOHD5LRVGCsLXoyHDS_LRhbIj5XgoZugG3Tan0xYlZlBFqsQhJCE7WJeThrXxH1bCOj0n0johNyP1WSK1wSCXq0N_NcIPJTPggipd0R5lLshfKM6D7BjTo="
+      },
+      {
+        "title": "iiprd.com",
+        "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQG-az3EP5r0nrqGYUek38tQ9Y8eEGQ8nc4PRfj6hx70UQVL0DGLMAWx9Afs5-K3XvktwVUjutkHukBAt0KdGkjSZhRMULOatblCfHA6vprk4YIMUPR9icDWL7yqrbUJn8OQ1R8Q6Cea6eUdQsn5RzSa8fpTWmEn3Jtg4MvUuIbvtAH2x9hEmw=="
+      },
+      {
+        "title": "vicapartners.com",
+        "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGsQyp2MYtOGPpQdccUOIlsHmAEvzMcHYJeYhv7giVzwKocvsr9A14drzijEImaKpELpqdIzixe-Ukcpp2L6K7U1St4Qmbr3f7qtFQoF2ga46bGRaE_Yn36vHh0UBafxg5qGe7pWWR8bjpxzx27-DMu86HPj-581fq0ybFcnBqxzq9yUDk9t9kv3Kn9AQ_uF37BJkGe9iaZqME2sXjMhi8="
+      },
+      {
+        "title": "medium.com",
+        "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEQXlK2XziyR3dcNFLM33BdZD_063iOuehDqWOw_0CNKjVs8J159ZUchfMJV-RHIOUWFOXFRQu3tiaU-AEYqhAVOvuqzjeMEX4mgUACxnTo7Nto17b356A2ha03ELNRBlgk0MTNc7ezqDaACr5Q5czq7vsfw2732WhtywbgWc0del0I8aacTdyvDeLUzN-ICqQohorMaFRj0Wpk7odOedwInHB-rkso33ahhTk="
+      },
+      {
+        "title": "substack.com",
+        "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQG0kKzWfRxYAwoxUJIoARmsRvmbpZ7VNzlx10aLnUERZdjRnn2xi8YiY1GZ8qLHTE6frD8mKja_eZlnwg8pOk4-AAoohvKsJS2ifXJXwEeqPMTJwSA0ImUIoB3M4NDktcHW2Vxg-oVlzkvZN9PgxZtn6T9S_RRRrIpr5MR2ighzLg=="
+      },
+      {
+        "title": "ajbell.co.uk",
+        "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHZitRB1ZoCQ5OqhMNriw48LjE6eumHKmq2fohN3_79EwDCuBqbw4iLvLYrLGP5gGe_438na-DHRoDo5cYzvE68f2LZM-zmirJyQvAoJ7KxKFHJzy7M0Wakrrv3TNDblHwa2q2mZDB2DML46WgiaVT6H2m33VfloXjFq4cd2HNNfNDpl4amiF7hPmRaji11_Ez2N9zfToSJWk6xlYbb9r9i70DB5Ropvl4i_q5UIswWAY_QrGE="
+      },
+      {
+        "title": "forbes.com",
+        "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEQn7uQAwbABcspoV03iBmE-vdmbJKmI3eBoYLNskQ4ULWvNCsJTYTn7uNOtIHGS8aGTQJ2sJxf9Y6gmT1SvPrbdinHxib8aS55q5iwv1F2j7rni-MEC9_wTIQTuXhKOFPoCnFq6mAp8W2qb9zA7hSNDmns2twAMZ0BC6AbiVCbCfVN-o3I5dMSCaDiozxdsF6PJGZnlIJnP8XFS4jueTzFWax2lGemna_qcjR-F5AP"
+      },
+      {
+        "title": "siliconangle.com",
+        "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFfu6cmsc_PAoWSBOUVRLY3R4aZwAW3zbz9J2FWDcuL_2NPLJD5UJp865_H2wGuBNN_3w_iri5QhNLIoNaa0_njiOle7P6FhkpNfKQbujBTnEqZobN0pfq2wGmCtZGv270XAwVEH2vjOTSMQt030GPHRIxyzgjKd2WIslGDk9lhAm61MWQhlKrAulAn1AA="
+      },
+      {
+        "title": "marketbeat.com",
+        "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQESS4mCUfuBcaxbFYcJM7huAFhWfUe7ZFHGT9FIc0LqAd7UMMGBvtqST6mCKY2TOS4sRw8raHlAHS1yRiKln314cCjtIb5g3bfR5vWnANCHN17dmJ9eGfBae-c6-eQY-7xMYpR2JZSSbBg9rE4WDVDADnAv3mXR-eFAsAzzrWoE3dPfiqWj2Q=="
+      },
+      {
+        "title": "businessmodelanalyst.com",
+        "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHVnN1Fp8Epb7YnohYkImVIDbeXyR1d_RBWWHQKPwwg5ZZfcLnKGhDJoLYziV-GFJ6_RbL65g9qOXqOhrvAxQUUj5F6HZ8CliT0yrOfgDnXb3S1P0q1LxcMkiHXAqGHBAN4oKTGVAL41WSKbL11YUY="
+      },
+      {
+        "title": "pocketoption.com",
+        "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFVV_-YtmIedTRYDXyLYYBwS7Vqyzpafg9A32aZFpHBXjxfSPq1hNZA3o0nmNbVtkRLE3RWmhQHRdk13GvZXheyoLBNJEdTfEbY9epU-Zu_GedbelQYVGEMo4BMiZSGtEX7BpmIMLYT2jbZDcPoAegPn-MoLe3lyWxWWiH15TmY8TbpvuiVm8QQxQ=="
+      },
+      {
+        "title": "fool.com",
+        "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGO7tuPMaYLiPFbNUvhfIdjnceZS9ReB7PBWQE7nC37i6KdmbFIecmup6ZKdBsldAYGeOtDIihg_vLUtJCJK_5v8NvdQtRY53Zg5rmdmml4k3Ns-uTRwBhk8R-h6jqlYb04YdTDfO2Oa_GISe7tX_WSZ9W0BbYGFEXZ8v4UqEcbNROVhvk5WMuVKT5gAzMk07hCluzMiFsWJA=="
+      },
+      {
+        "title": "seekingalpha.com",
+        "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHAG3LZHSPySg9DPEuUYIXNFLK7KK73obk0OZu6aASjK6VAgiQEs6Tj7Ol6tkU_OC66czKunbuaZVHtjlZDBaPpTpc-UuGbuU0LIaO6G5pSn02CFikNQBIsOn-ZohRu5PVM7DDlzxQK72uCzFsAj-46gxp5ljMRAACPaTFWOt8neurVIw8a1M0WrblEEWsNceiPUQg3EJswTNJkTEe4atFIv0jJ54eP-lqGmA=="
+      },
+      {
+        "title": "nasdaq.com",
+        "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHqvj-nZjVxHPMTNWfBKaBvfadMtokej3XKQgiAIL15ItJIZoxCAC8ipGrLv3RDTOC2HSjwO5d94wl9T578DkY7Ge6ce0Bs0CI44xCpM_5Fgl7fZ1kXrxgKyNpUa2r2OZBP_IH9apTNIyKSYzuEuilADKOESsSGKYRKFc555ENtj-93MzcL"
+      },
+      {
+        "title": "reddit.com",
+        "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHOapFqIA1bt9WWlHnpgoObt_vmE1aeyi1OSHNHfym055IScUtgqNfQa1MUcQUL7mUP1cEtStrT423kk74xO-M6nyRS9ge43quMWOOP9EKks4lntHCzCUlXi-G8qVfQCbRTkHWd-BdyEmxNP9lu1CoDjVFv-QW1EyyzD9LZwt8PEmPpDHuW82Pdzq9hyeZwXYlmSb3XjeAWCDk="
+      },
+      {
+        "title": "investing.com",
+        "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQE1zEsthIu1asCwIqE12ixiXqVtHs9QmVTRbgVFbMdqh4ZSjtD9womCA5_Jkvbgmd6x9naUzks07I_dMpDJJwwbe36BqJn-v5CITJJY3V4i4bYmtPprxhDj2QxlqBgDxtWIWGl4QaMYzd0="
+      },
+      {
+        "title": "tipranks.com",
+        "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGsCWP4NgU0PCNCWAFqcIPC12NV649V0WvWnsZ0UYRVonHGDSJCGW0DOpRiVA4AQTGl_3SdMtngGYAIRxNykuR3HMS1EDI_xjEZkH5W-v-TwdLrIeoNfj750dWenvafbWFeJ4IY2jE4iDUYQVvIzgDWIhkspgZGaKJHu8YtzXXkbtU8W_UbU5b-yvxLL_-2gK2TWJlPSDBm4JStwvEdhHdNAw1TMqOByBRbk1eu"
+      },
+      {
+        "title": "watcher.guru",
+        "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGeofmHG5_Hhy-_26mnat3a-Jcef7X-UwTHGCLC74Ab5pvxnqOoQy-rVZmRl8wHVjArweoaJ-oyE88p10Li7QJg6cmC-mBGP01uQvSFe95VmH6jzJmKJmNat9iSFw6mBXLXmIxA9uD7tbhJyIF4oDWdnFe9elMEY81ZzRxVR-Va1TGgDo-kHhaEFLgcfjw="
+      },
+      {
+        "title": "businessquant.com",
+        "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHKeTZDuItRcV34Nxb0Kr_mwRMLkDEPNnOIJyRR9EhUe-grFkTWB9JEKryfPoPF-_CH-BU6kMf10XRaERYnehF03_pLd8VdsNIKYsbcrYveC8ZV_A2Is7ebYbYU5piXg4syqi53sBN42iPV0OENYoLIm86iOEVimZE="
+      },
+      {
+        "title": "eqvista.com",
+        "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFRHDAOZwJ7rJGOAPPyLfMNVkYht9TxJdd7LLQfnkgegzBs7GvPj71vTBJEc0f3HawkQiSxIYnqpm87F6uNYpswxkK5D8dbF18HdnnX3voMLrUQgVHNHCxTDHUnL-Rb9B6_8oUGNQgxG6cV9A=="
+      },
+      {
+        "title": "financialcontent.com",
+        "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQE7S14h4y46NxLhaZ3W4eN5C6Nwgt3uiRneuK-rZ4S083C3mUBFJhbsaN8JjWRmlgzG8lCMR77TDzIVEMQafHbY57sicydOV5IxNp9RTeCXU3_8c_qpa__fZwm1O5ixjC-IvqyPeGCiXVDWtvQgvIkUPZSgDjYU9tSIC_7CsQaFu2uOiPEfG7aTo3jDvVOX6flCffHC9PXKtB548xUTGvlSlfVVwLImJwY2SYgXFiGgTzYkuEgsFiDBv-MfpvVhzpy1wUz2dETJJMhxUlKnLQ=="
+      },
+      {
+        "title": "ainvest.com",
+        "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEwoQE3j4Uo2ip4_dAz5UHjEC-GFztwPe1telRjtOMnLgYlfrM46wCaLWFK5TJPlfWNbwUgEBavr2FuyqbxxtuPsRqVVeIuM_-dfxMuQr8whAtRgr49tI2_LUMut8jtRkXOU6WIWHOFHNi7IIJqTFI5TpGc61AigkWVgSB9WKyVn__s5Knk31n9OHxX_j9nXMDBZpXuP2mO8fKWhqp0JT7_4CvF3q-avatnpOgNPG8k"
+      }
+    ]
+  }
+}

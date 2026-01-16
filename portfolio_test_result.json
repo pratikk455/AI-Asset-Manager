@@ -1,0 +1,361 @@
+{
+  "theses": [
+    {
+      "ticker": "NVDA",
+      "recommendation": "buy",
+      "conviction": 0.75,
+      "thesis_summary": "NVIDIA is the undisputed leader in the AI chip market, possessing a wide moat fueled by network effects, high switching costs, and strong brand recognition. While trading at a premium valuation, the company's exceptional revenue growth, industry-leading profitability, and overwhelmingly positive market sentiment justify a buy rating. Continued dominance in the AI and data center markets, alongside innovative product development, positions NVIDIA for sustained long-term growth, making it an attractive investment despite existing risks.",
+      "target_weight": 0.06
+    },
+    {
+      "ticker": "GOOGL",
+      "recommendation": "buy",
+      "conviction": 0.75,
+      "thesis_summary": "Alphabet (GOOGL) presents a compelling investment opportunity driven by its dominant market position in search, expanding cloud business, and advancements in AI, particularly with the Gemini model. While valuation multiples are elevated compared to peers, the company's consistent revenue growth, strong profitability, and robust balance sheet justify a premium. The positive market sentiment, coupled with strong analyst ratings, further supports a bullish outlook, though regulatory risks and competition in AI and cloud computing warrant close monitoring.",
+      "target_weight": 0.06
+    },
+    {
+      "ticker": "AMZN",
+      "recommendation": "buy",
+      "conviction": 0.75,
+      "thesis_summary": "Amazon is a buy based on its strong fundamentals, wide and durable moat, and significant growth opportunities in e-commerce, cloud computing (AWS), AI, and advertising. While near-term headwinds exist, including heavy AI investment and regulatory scrutiny, the long-term growth potential and dominant market position make it an attractive investment at its current valuation. Analyst sentiment remains bullish with considerable upside to price targets.",
+      "target_weight": 0.06
+    }
+  ],
+  "portfolio": {
+    "portfolio_name": "US Large Cap Growth Portfolio",
+    "construction_date": "2024-10-27",
+    "positions": [
+      {
+        "ticker": "NVDA",
+        "company": "NVIDIA Corporation",
+        "weight": 0.06,
+        "conviction": 0.75,
+        "thesis_summary": "NVIDIA is the undisputed leader in the AI chip market, possessing a wide moat fueled by network effects, high switching costs, and strong brand recognition. While trading at a premium valuation, the company's exceptional revenue growth, industry-leading profitability, and overwhelmingly positive market sentiment justify a buy rating. Continued dominance in the AI and data center markets, alongside innovative product development, positions NVIDIA for sustained long-term growth, making it an attractive investment despite existing risks.",
+        "sizing_rationale": "Medium-high conviction in AI leadership. Sized to target weight."
+      },
+      {
+        "ticker": "GOOGL",
+        "company": "Alphabet Inc.",
+        "weight": 0.06,
+        "conviction": 0.75,
+        "thesis_summary": "Alphabet (GOOGL) presents a compelling investment opportunity driven by its dominant market position in search, expanding cloud business, and advancements in AI, particularly with the Gemini model. While valuation multiples are elevated compared to peers, the company's consistent revenue growth, strong profitability, and robust balance sheet justify a premium. The positive market sentiment, coupled with strong analyst ratings, further supports a bullish outlook, though regulatory risks and competition in AI and cloud computing warrant close monitoring.",
+        "sizing_rationale": "Medium-high conviction in search and AI. Sized to target weight."
+      },
+      {
+        "ticker": "AMZN",
+        "company": "Amazon.com, Inc.",
+        "weight": 0.06,
+        "conviction": 0.75,
+        "thesis_summary": "Amazon is a buy based on its strong fundamentals, wide and durable moat, and significant growth opportunities in e-commerce, cloud computing (AWS), AI, and advertising. While near-term headwinds exist, including heavy AI investment and regulatory scrutiny, the long-term growth potential and dominant market position make it an attractive investment at its current valuation. Analyst sentiment remains bullish with considerable upside to price targets.",
+        "sizing_rationale": "Medium-high conviction in e-commerce and cloud. Sized to target weight."
+      }
+    ],
+    "portfolio_summary": {
+      "total_positions": 3,
+      "cash_weight": 0.82,
+      "top_5_weight": 0.18,
+      "sector_weights": {
+        "Technology": 0.12,
+        "Consumer Discretionary": 0.06
+      },
+      "average_conviction": 0.75
+    },
+    "risk_characteristics": {
+      "estimated_beta": 1.1,
+      "concentration_level": "Low",
+      "style_tilt": "Growth"
+    },
+    "changes_from_current": [
+      {
+        "ticker": "NVDA",
+        "action": "add",
+        "from_weight": 0,
+        "to_weight": 0.06,
+        "reason": "New position based on thesis"
+      },
+      {
+        "ticker": "GOOGL",
+        "action": "add",
+        "from_weight": 0,
+        "to_weight": 0.06,
+        "reason": "New position based on thesis"
+      },
+      {
+        "ticker": "AMZN",
+        "action": "add",
+        "from_weight": 0,
+        "to_weight": 0.06,
+        "reason": "New position based on thesis"
+      }
+    ],
+    "construction_notes": "Initial portfolio construction focusing on high-growth technology and consumer discretionary companies. High cash position to allow for future opportunities.",
+    "summary": "This portfolio initiates positions in NVIDIA, Alphabet, and Amazon, capitalizing on their growth potential in AI, cloud computing, and e-commerce. A large cash position is maintained for future investment opportunities."
+  },
+  "risk_report": {
+    "portfolio": {
+      "positions_count": 3,
+      "total_value": "$1,000,000",
+      "positions": [
+        {
+          "ticker": "NVDA",
+          "weight": 0.06
+        },
+        {
+          "ticker": "GOOGL",
+          "weight": 0.06
+        },
+        {
+          "ticker": "AMZN",
+          "weight": 0.06
+        }
+      ]
+    },
+    "stress_tests": {
+      "portfolio_summary": {
+        "total_positions": 3,
+        "portfolio_beta": 1.73,
+        "sector_concentration": "Technology 100%"
+      },
+      "scenarios": [
+        {
+          "name": "2008 Financial Crisis",
+          "description": "Credit crisis, bank failures",
+          "market_decline": "-57%",
+          "portfolio_estimated_decline": "-65%",
+          "worst_hit_positions": [
+            {
+              "ticker": "NVDA",
+              "estimated_decline": "-85%",
+              "reason": "High beta, semiconductor sector was hit hard"
+            }
+          ],
+          "best_performers": [
+            {
+              "ticker": "AMZN",
+              "estimated_decline": "-65%",
+              "reason": "E-commerce benefited as consumers looked for cheaper alternatives"
+            }
+          ],
+          "recovery_time_estimate": "4-5 years"
+        },
+        {
+          "name": "2020 COVID Crash",
+          "description": "Sudden economic shutdown, shift to remote work",
+          "market_decline": "-34%",
+          "portfolio_estimated_decline": "-38%",
+          "worst_hit_positions": [
+            {
+              "ticker": "NVDA",
+              "estimated_decline": "-35%",
+              "reason": "Initial drop due to economic uncertainty, but quickly recovered"
+            }
+          ],
+          "best_performers": [
+            {
+              "ticker": "AMZN",
+              "estimated_decline": "-20%",
+              "reason": "Benefited from increased online shopping"
+            }
+          ],
+          "recovery_time_estimate": "6-12 months"
+        },
+        {
+          "name": "2022 Rate Shock",
+          "description": "Rising interest rates, inflation concerns",
+          "market_decline": "-25%",
+          "portfolio_estimated_decline": "-35%",
+          "worst_hit_positions": [
+            {
+              "ticker": "NVDA",
+              "estimated_decline": "-50%",
+              "reason": "Growth stocks and tech hit hard by rising rates"
+            }
+          ],
+          "best_performers": [
+            {
+              "ticker": "GOOGL",
+              "estimated_decline": "-30%",
+              "reason": "More resilient due to diversified revenue streams"
+            }
+          ],
+          "recovery_time_estimate": "1-2 years"
+        },
+        {
+          "name": "Dot-Com Bust (2000-2002)",
+          "description": "Tech bubble burst, internet company failures",
+          "market_decline": "-49%",
+          "portfolio_estimated_decline": "-70%",
+          "worst_hit_positions": [
+            {
+              "ticker": "AMZN",
+              "estimated_decline": "-96%",
+              "reason": "Amazon lost a significant portion of its value during the dot-com bust"
+            }
+          ],
+          "best_performers": [
+            {
+              "ticker": "GOOGL",
+              "estimated_decline": "-50%",
+              "reason": "Google was not public during the Dot-Com bust, estimate based on tech sector performance"
+            }
+          ],
+          "recovery_time_estimate": "5-10 years"
+        },
+        {
+          "name": "2018 Q4 Selloff",
+          "description": "Fed tightening fears",
+          "market_decline": "-20%",
+          "portfolio_estimated_decline": "-25%",
+          "worst_hit_positions": [
+            {
+              "ticker": "NVDA",
+              "estimated_decline": "-31%",
+              "reason": "Concerns about tariffs and crypto demand"
+            }
+          ],
+          "best_performers": [
+            {
+              "ticker": "GOOGL",
+              "estimated_decline": "-20%",
+              "reason": "More stable performance compared to other tech stocks"
+            }
+          ],
+          "recovery_time_estimate": "3-6 months"
+        }
+      ],
+      "worst_case_scenario": {
+        "name": "Dot-Com Bust (2000-2002)",
+        "portfolio_decline": "-70%"
+      },
+      "risk_flags": [
+        "High concentration in technology stocks makes the portfolio vulnerable to tech-specific downturns",
+        "High beta stocks amplify market volatility",
+        "Lack of diversification increases overall portfolio risk"
+      ],
+      "recommendations": [
+        "Consider diversifying into other sectors such as healthcare or consumer staples",
+        "Reduce exposure to high-beta stocks to decrease volatility",
+        "Add defensive positions like bonds or dividend-paying stocks"
+      ],
+      "summary": "This portfolio is highly concentrated in technology stocks and is vulnerable to significant declines during economic downturns, particularly those affecting the tech sector. Stress tests reveal potential drawdowns exceeding market declines in several historical crises. Diversification and risk management strategies are recommended.",
+      "_sources": [
+        {
+          "title": "reddit.com",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHNcKUxC2-FJoTkjcDHq2AOLt6toGBG8iPQZp4lw-ZSO-sAmc_rVah7H5gwD15GZZoccJ5aiwpRE2QiZNS94-IOr47BhRwPoFy8pU5d-9N7028M27R-PsDOLDXily8dNrxRoMNpFAmt_dCANiLrSxvAU0b9m6ffxZDjeAoEMR8BLLZKvY_xpvhuovyQ1vlt3egRe0kT633tODwDpxhwgh0="
+        },
+        {
+          "title": "youtube.com",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQERX70HRLliokF0kicxuLCoUrHMlGMsdBm8cAMvZbTBMVzhqZwcboAZPVUE2edfgquyENwukQ8EZvVajhG6B8PVqMbSaC8diuPUatW2arohfXglhfuoAedYIvmq2dQbjFeig67jp58="
+        },
+        {
+          "title": "fool.com",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFbLmKcjD6g3wagwnK-lcEzSJdYImAQwX3Kj0EHC_fdQ28a9Tli6tPRjYc4EA2euK-iICUtV-BvqJZl4Fs_NV1R9C3YMX54ZlbQKKwBCtKGdSVtF1TVoiQunfQZ3uhSu0zeyegD-n7LpwY0g9CgEzq_s6ZoqX-Rxc-5gBfpNSnZx_z9majazN-Jak7ddIUbxGuy"
+        },
+        {
+          "title": "forbes.com",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHqADkvQeRJgc33wGOVbfH62vPztz0CjWVDFXlglPZWvIicI8hPkyx1sMocAl-uAQrjpS9L26ZNIDWbjLBtOafsUsnhhziSpm-c581tVLivevarZXmW81nJajAaLz1jCYrDrEqZ_XEyJ7Ue_eEAgXRuLMQZv5hyR6wHWpVddBwCLQ7GF8Wadc3NK40R-xKz8n4VvZV-jBk1WpTupluUBN6eY7JbXHcltYr5VbLfpNkUpmSUkEHLbAdoOr0V-kuUc9NWOirlYw=="
+        },
+        {
+          "title": "thetradable.com",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHwBBuUxUNy6jt5tZrnY6jZ-cF8TcBrNz4Pvl-hXMRjB0BH2iJ_L01eNFFtOO1NH5vKjzwpTv-iH9B9Tr2qguzDMiM3hpsYZAeUWLLGnhA1do4xUgfOOVC6wMnVwkehnpIPm7Kkz_86Ku8qXSyXnu9A2jDwU5B-RH94OzLPhhSkf4bmTzMQ7jTF4HEbdKs="
+        }
+      ]
+    },
+    "var": {
+      "portfolio_summary": {
+        "total_value": "$1,000,000",
+        "number_of_positions": 3,
+        "portfolio_volatility_annual": "28%",
+        "portfolio_volatility_daily": "1.76%"
+      },
+      "var_metrics": {
+        "daily_var_95": {
+          "amount": "$28,952",
+          "percent": "2.90%",
+          "interpretation": "On 95% of days, losses won't exceed $28,952"
+        },
+        "daily_var_99": {
+          "amount": "$40,928",
+          "percent": "4.09%",
+          "interpretation": "On 99% of days, losses won't exceed $40,928"
+        },
+        "weekly_var_95": {
+          "amount": "$64,740",
+          "percent": "6.47%"
+        },
+        "monthly_var_95": {
+          "amount": "$132,344",
+          "percent": "13.23%"
+        }
+      },
+      "component_var": [
+        {
+          "ticker": "NVDA",
+          "weight": "6%",
+          "volatility": "40.91%",
+          "var_contribution": "35%",
+          "marginal_var": "$10,133"
+        },
+        {
+          "ticker": "GOOGL",
+          "weight": "6%",
+          "volatility": "33.55%",
+          "var_contribution": "30%",
+          "marginal_var": "$8,700"
+        },
+        {
+          "ticker": "AMZN",
+          "weight": "6%",
+          "volatility": "27.62%",
+          "var_contribution": "25%",
+          "marginal_var": "$7,200"
+        }
+      ],
+      "risk_concentration": {
+        "top_3_positions_var_contribution": "90%",
+        "assessment": "Significant risk concentration in these three holdings."
+      },
+      "historical_context": {
+        "worst_daily_loss_estimate": "-6%",
+        "probability_of_10pct_monthly_loss": "7%"
+      },
+      "recommendations": [
+        "Consider diversifying into less volatile assets or reducing the position sizes of NVDA, GOOGL and AMZN to lower overall portfolio VaR."
+      ],
+      "summary": "The portfolio has a daily 95% VaR of $28,952, meaning that losses are not expected to exceed this amount on 95% of the days. The portfolio's risk is concentrated in NVDA, GOOGL and AMZN, which contribute significantly to the overall VaR.",
+      "_sources": [
+        {
+          "title": "gurufocus.com",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEIxJjwEVO-5yYweT08k4sv8IjnKMX6r6RrdA4XEcGqxxcbPm262MeAZQkSgkJUYxokPjfM4UrimoP7P3fcIeF51k6eCnX1Hi20hyCxvubZd52-MKvxija99S8m9JXwignN3JObSDoDZj8="
+        },
+        {
+          "title": "gurufocus.com",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHAX0Z0O-20XBroeRbMVCLbfDmkeT7G3oWevLS_lM4ofPct12nkoh0Z23REGfjaFu6tmfEY-7y7KzXx16BDQDNB80BBJw1mWIS-TTPQQOfO9GR_XWtFnygsIfmKypbH-DuHYIOPVVgv_kQ="
+        },
+        {
+          "title": "gurufocus.com",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHUhVNRMNx_JuRMUed68huD-lenMIPs4kpN5bjTgg0FlSXU-BpTBQwA4nJsKFUN1jJpkhc9SwvvuZUmrRS6FCG35QuQAG-xYB5547_m3NIn5mqniQFuGU06p4uMzoYbhPyXMt6d9cWcZ6c="
+        }
+      ]
+    },
+    "monte_carlo": null,
+    "correlations": null,
+    "summary": {
+      "worst_case_drawdown": "-70%",
+      "daily_var_95": "2.90%",
+      "probability_of_loss": "N/A",
+      "effective_positions": "N/A",
+      "overall_risk_level": "HIGH"
+    },
+    "risk_flags": [
+      "High concentration in technology stocks makes the portfolio vulnerable to tech-specific downturns",
+      "High beta stocks amplify market volatility"
+    ],
+    "recommendations": [
+      "Reduce exposure to high-beta stocks to decrease volatility",
+      "Consider diversifying into less volatile assets or reducing the position sizes of NVDA, GOOGL and AMZN to lower overall portfolio VaR.",
+      "Consider diversifying into other sectors such as healthcare or consumer staples"
+    ]
+  }
+}
